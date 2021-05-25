@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textScore"
+        android:layout_width="match_parent"
+        android:textSize="14sp"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/textScore"/>
+
+    <TextView
+        android:id="@+id/textDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/textResult"/>
+
+    <TextView
+        android:id="@+id/textTitleResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textDate"
+        android:textSize="14sp"
+        android:layout_marginTop="5dp"
+        android:text="You can also get help from good Physiotherapist on Practo"/>
+
+
+    <TextView
+        android:id="@+id/textWebUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="14sp"
+        android:layout_marginTop="5dp"
+        android:text="https://www.practo.com/mumbai/physiotherapist"
+        android:layout_below="@+id/textTitleResult"/>
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="OK"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textWebUrl"/>
+</RelativeLayout>

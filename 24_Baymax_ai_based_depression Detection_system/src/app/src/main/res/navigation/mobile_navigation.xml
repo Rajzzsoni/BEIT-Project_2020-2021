@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_default_home">
+
+    <fragment
+        android:id="@+id/nav_default_home"
+        android:name="com.example.depression.ui.selection_home.SelectionFragment"
+        android:label="@string/default_home"
+        tools:layout="@layout/default_home" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.depression.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.depression.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.depression.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_yoga"
+        android:name="com.example.depression.ui.yoga.YogaTipsFragment"
+        android:label="@string/menu_yoga"
+        tools:layout="@layout/fragment_yoga" />
+
+    <fragment
+        android:id="@+id/nav_chants"
+        android:name="com.example.depression.ui.chants.ChantsFragment"
+        android:label="@string/menu_chants"
+        tools:layout="@layout/fragment_chants" />
+
+    <fragment
+        android:id="@+id/nav_bhagvad_gita"
+        android:name="com.example.depression.ui.geeta.BhagvadGeetaFragment"
+        android:label="@string/menu_bhagvad_gita"
+        tools:layout="@layout/fragment_bhagvad_geeta" />
+</navigation>

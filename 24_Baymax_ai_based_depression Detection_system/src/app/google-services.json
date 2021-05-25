@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1016619406347",
+    "project_id": "depression-cfe33",
+    "storage_bucket": "depression-cfe33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016619406347:android:7c02c2bc8c0db0bd1ba30e",
+        "android_client_info": {
+          "package_name": "com.example.depression"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016619406347-6oqvbr1ei67s3tvmppuo5matfg1e3u63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxVtuiqRMJeQxo6l-LsW_i1vI4E0VPj-g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1016619406347-6oqvbr1ei67s3tvmppuo5matfg1e3u63.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
